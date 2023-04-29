@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body {
+    display: grid;
+    grid-template-areas: "head" "h2" "h3" "container" "footer";
+    height: 100vh;
+}
+
+header {
+    grid-area: head;
+    width: 75px;
+    height: 75px;
+    background-color: lightgray;
+    position: relative;
+    padding: 10px;
+    border: 6px solid red;
+    outline: 3px solid #eee;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    position: inherit;
+    bottom: 25px;
+    text-shadow: 1px 1px 3px black;
+    border: 2px red solid;
+    padding: 5px;
+    white-space: nowrap;
+    width: fit-content;
+    outline: 2px solid #eee;
+    background-color: lightgray;
+    color: white;
+}
+
+h2 {
+    grid-area: h2;
+    text-transform: capitalize;
+    color: #ff0000;
+}
+
+h3 {
+    grid-area: h3;
+    text-transform: capitalize;
+    color: #ff0000;
+}
+
+.container {
+    width: 100%;
+    grid-area: container;
+    gap: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.container>div {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+    .container div {
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 1.75em;
+    }
+}
+
+@media (min-width: 992px) {
+    .container div {
+        width: calc(50% - 20px)
+    }
+
+    h4 {
+        color: red;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container div {
+        width: calc(25% - 40px)
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    h4 {
+        color: #159e91;
+    }
+}
+
+footer {
+    grid-area: footer;
+    width: 99%;
+    background-color: #eee;
+    padding: 5px 25px;
+    margin: auto;
+    border: 3px solid red;
+    outline: solid lightgray;
+    text-align: left;
+}
+
+footer p {
+    position: inherit;
+    bottom: -5px;
+    transition: none;
+}
+
+footer .copy-right {
+    font-size: smaller;
+    position: relative;
+}
+
+footer hr {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 0;
+}

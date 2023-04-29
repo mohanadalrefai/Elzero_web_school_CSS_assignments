@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+header {
+    width: 75px;
+    height: 75px;
+    background-color: lightgray;
+    position: relative;
+    padding: 10px;
+    border: 6px solid red;
+    outline: 3px solid #eee;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    position: inherit;
+    bottom: 25px;
+    text-shadow: 1px 1px 3px black;
+    border: 2px red solid;
+    padding: 5px;
+    white-space: nowrap;
+    width: fit-content;
+    outline: 2px solid #eee;
+    background-color: lightgray;
+    color: white;
+}
+
+h2 {
+    text-transform: capitalize;
+    color: #ff0000;
+}
+
+h4 {
+    text-transform: capitalize;
+    color: #ff0000;
+    font-size: larger;
+}
+
+.assign7 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
+.assign7 div:nth-child(1) div:nth-last-of-type(2) {
+    color: red;
+    padding: 30px 0;
+}
+
+footer {
+    position: absolute;
+    top: 2300px;
+    width: 99%;
+    height: 8%;
+    background-color: #eee;
+    padding: 5px 25px;
+    margin: auto;
+    border: 3px solid red;
+    outline: solid lightgray;
+    text-align: left;
+}
+
+footer p {
+    position: inherit;
+    bottom: -5px;
+    transition: none;
+}
+
+footer .copy-right {
+    font-size: smaller;
+    position: relative;
+}
+
+footer hr {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 0;
+}

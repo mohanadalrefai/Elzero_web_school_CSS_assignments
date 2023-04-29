@@ -1,0 +1,2594 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee80;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    width: 75px;
+    height: 75px;
+    background-color: lightgray;
+    position: relative;
+    padding: 10px;
+    border: 6px solid red;
+    outline: 3px solid #eee;
+    margin: 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+h1 {
+    text-transform: uppercase;
+    position: inherit;
+    bottom: 25px;
+    text-shadow: 1px 1px 3px black;
+    border: 2px red solid;
+    padding: 5px;
+    white-space: nowrap;
+    width: fit-content;
+    outline: 2px solid #eee;
+    background-color: lightgray;
+    color: white;
+}
+
+h2 {
+    text-transform: capitalize;
+    color: #ff0000;
+}
+
+h3 {
+    text-transform: capitalize;
+    color: #ff0000;
+}
+
+.go-up {
+    background-color: lightgray;
+    padding: 5px;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    width: fit-content;
+    height: fit-content;
+    outline: #eee solid;
+    border: red 2px solid;
+    border-radius: 30%;
+    text-align: center;
+    text-transform: capitalize;
+    z-index: 1000;
+}
+
+.go-up a {
+    text-decoration: none;
+}
+
+nav {
+    position: absolute;
+    width: 15%;
+    height: 34550px;
+    text-transform: capitalize;
+    margin: 10px;
+    margin-left: 0px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 0px;
+    border-right: 3px solid #ddd;
+    z-index: 2;
+}
+
+nav ul {
+    list-style: none;
+    margin-block-start: 0px;
+    padding-inline-start: 0px;
+}
+
+nav ul li {
+    padding: 5px 0;
+}
+
+nav ul li a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: wheat;
+}
+
+.a1-4,
+.a5-8,
+.a9-12,
+.a13-16,
+.a17-21,
+.a22-26,
+.a27-29,
+.a30-33,
+.a34-37,
+.a38-41,
+.a42-45,
+.a46-53,
+.a54-56,
+.a57-64,
+.a65-67,
+.a68-73,
+.a74-77,
+.a78-82,
+.a83-85,
+.a86-88 {
+    max-width: 99%;
+    height: max-content;
+    position: absolute;
+    left: 20%;
+    text-transform: capitalize;
+}
+
+.a5-8 {
+    top: 1000px;
+}
+
+.a5-8 .assign1 {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    outline: 1px black solid;
+}
+
+.assign-1-shape-1 {
+    width: 460px;
+    padding: inherit;
+    background-color: blueviolet;
+    background-color: #8a2be2;
+    background-color: rgb(138, 44, 226);
+    background-color: hsl(271, 76%, 53%);
+}
+
+.assign-1-shape-2 {
+    width: 460px;
+    padding: inherit;
+    background-color: rgba(137, 43, 226, 0.5);
+}
+
+.assign-1-shape-3 {
+    width: 460px;
+    padding: inherit;
+    background-color: rgba(138, 43, 226, 0.1);
+}
+
+.a5-8 .assign2 {
+    width: 400px;
+    position: relative;
+    color: white;
+    margin: auto;
+}
+
+.assign-2-shape-1 {
+    width: inherit;
+    height: 400px;
+    background-image: url(../img/css-assignment-5-8.png);
+    background-repeat: no-repeat;
+    outline: 1px black solid;
+}
+
+.assign-2-shape-2 {
+    width: inherit;
+    height: 400px;
+    background-image: url(../img/css-assignment-5-8.png);
+    background-repeat: repeat-y;
+    outline: 1px black solid;
+}
+
+.assign-2-shape-3 {
+    width: inherit;
+    height: 400px;
+    background-image: url(../img/css-assignment-5-8.png);
+    background-repeat: repeat-x;
+    outline: 1px black solid;
+}
+
+.assign-2-shape-4 {
+    width: inherit;
+    height: 400px;
+    background-image: url(../img/css-assignment-5-8.png);
+    outline: 1px black solid;
+}
+
+.a5-8 .assign3 {
+    width: 400px;
+    color: beige;
+    position: relative;
+    margin: auto;
+}
+
+.assign-3-shape-1 {
+    width: inherit;
+    height: 400px;
+    background-image: url(../img/css-assignment-5-8.png);
+    background-repeat: no-repeat;
+    outline: 1px black solid;
+}
+
+.assign-3-shape-2 {
+    width: inherit;
+    height: 400px;
+    background-image: url(../img/css-assignment-5-8.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    outline: 1px black solid;
+}
+
+.assign-3-shape-3 {
+    width: inherit;
+    height: 400px;
+    background-image: url(../img/css-assignment-5-8.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    outline: 1px black solid;
+}
+
+.assign-3-shape-4 {
+    width: inherit;
+    height: 400px;
+    background-image: url(../img/css-assignment-5-8.png);
+    outline: 1px black solid;
+}
+
+.a5-8 .assign4 {
+    width: 400px;
+    position: relative;
+    color: wheat;
+    margin: auto;
+}
+
+.assign-4-shape-1 {
+    width: inherit;
+    height: 400px;
+    background-image: url(../img/css-assignment-5-8.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    outline: 1px black solid;
+}
+
+.assign-4-shape-2 {
+    width: inherit;
+    height: 400px;
+    background-image: url(../img/css-assignment-5-8.png);
+    background-size: 80%;
+    background-repeat: repeat-y;
+    outline: 1px black solid;
+}
+
+.assign-4-shape-3 {
+    width: inherit;
+    height: 400px;
+    background-image: url(../img/css-assignment-5-8.png);
+    background-size: 80%;
+    background-repeat: repeat-x;
+    outline: 1px black solid;
+}
+
+.assign-4-shape-4 {
+    width: inherit;
+    height: 400px;
+    background-image: url(../img/css-assignment-5-8.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    outline: 1px black solid;
+}
+
+.a9-12 {
+    top: 6550px;
+}
+
+.a9-12 .assign1-1 {
+    border: 5px solid red;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    outline: 5px black solid;
+    background-color: lightgray;
+}
+
+.a9-12 .assign1-2 {
+    border: 5px solid;
+    border-color: blue green;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    outline: 5px black solid;
+    background-color: lightgray;
+}
+
+.a9-12 .assign1-3 {
+    border: 5px dashed;
+    border-color: red green blue yellow;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    outline: 5px black solid;
+    background-color: lightgray;
+}
+
+.a9-12 .assign2 {
+    width: 440px;
+    margin: 20px;
+    padding: 10px;
+    outline: 1px solid;
+}
+
+.a9-12 .assign2 .assign2-1 {
+    width: 400px;
+    padding: inherit;
+    background-color: lightgray;
+    border-left: 5px solid red;
+    outline: 10px lightgray solid;
+    margin: 30px 5px;
+}
+
+.a9-12 .assign2 .assign2-2 {
+    width: 400px;
+    padding: inherit;
+    background-color: lightgray;
+    border-left: 5px solid red;
+    outline: 10px lightgray solid;
+    margin: 30px 5px;
+    visibility: hidden;
+}
+
+.a9-12 .assign2 .assign2-3 {
+    width: 400px;
+    padding: inherit;
+    background-color: lightgray;
+    border-left: 5px solid green;
+    outline: 10px lightgray solid;
+    margin: 30px 5px;
+}
+
+.a13-16 {
+    top: 7200px;
+}
+
+.a13-16 .assign1 .parent .child .title {
+    color: red;
+}
+
+.a13-16 .assign1 .parent .title {
+    color: blue;
+}
+
+.a13-16 .assign1 .parent p,
+.a13-16 .assign1 .title {
+    color: green;
+}
+
+.a13-16 .assign2 div {
+    max-width: 400px;
+    max-height: 40px;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    background-color: red;
+    color: white;
+    overflow: hidden;
+}
+
+.a17-21 {
+    top: 7800px;
+}
+
+.a17-21 .assign1 {
+    font-size: 5rem;
+    text-shadow: .2rem .2rem red,
+        .4rem .4rem rgb(68, 131, 248),
+        .6rem .6rem purple;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.a17-21 .assign2 {
+    text-align: center;
+    background-color: #eee;
+    padding: 2%;
+}
+
+.a17-21 .assign2 .one {
+    text-transform: capitalize;
+    font-size: larger;
+}
+
+.a17-21 .assign2 .two {
+    text-transform: capitalize;
+}
+
+.a17-21 .assign2 .three {
+    font-size: smaller;
+}
+
+.a17-21 .assign3 {
+    width: 400px;
+    padding: 20px;
+}
+
+.a17-21 .assign3 .assign3-1 {
+    background-color: #eee;
+    padding: inherit;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.a17-21 .assign3 .assign3-2 {
+    white-space: nowrap;
+    background-color: #eee;
+    border-right: 90px solid #eee;
+    overflow: hidden;
+    padding: inherit;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.a17-21 .assign3 .assign3-3 {
+    white-space: nowrap;
+    background-color: #eee;
+    overflow: hidden;
+    padding: inherit;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-overflow: ellipsis;
+}
+
+.a17-21 .assign4 {
+    width: 300px;
+    padding: 50px;
+    background-color: #009688;
+    border-bottom: 20px #00514a solid;
+
+}
+
+.a17-21 .assign4 a {
+    font-size: 65px;
+    font-weight: 600;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+}
+
+.a22-26 {
+    top: 9300px;
+}
+
+.a22-26 .assign1 {
+    border: 3px solid orangered;
+    padding: 15px;
+
+}
+
+.a22-26 .assign1 p {
+    border: inherit;
+    padding: inherit;
+    margin: inherit;
+    text-align: center;
+    background-color: #eee;
+}
+
+.a22-26 .assign2 .assign2-1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 500%;
+}
+
+.a22-26 .assign2 .assign2-2 {
+    font-family: 'Cairo', sans-serif;
+    font-size: 500%;
+    text-align: center;
+}
+
+.a22-26 .assign2 .assign2-3 {
+    font-family: 'Jomhuria', cursive;
+    font-size: 500%;
+    text-align: center;
+}
+
+.a22-26 .assign3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.a22-26 .assign3 .assign3-1 {
+    font-size: 3.12rem;
+}
+
+.a22-26 .assign3 .assign3-2 {
+    font-size: 2.5rem;
+}
+
+.a22-26 .assign3 .assign3-3 {
+    font-size: 1.87rem;
+}
+
+.a27-29 {
+    top: 10800px;
+}
+
+.a27-29 .assign1 {
+    width: 800px;
+    background-color: #eee;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+/*
+  Content Width Is: 100%
+  5 Spaces  15px * 5 => 75px From Content Width
+  100% - 75px Available Space
+  4 Elements The Width Is: (100% - 75px) / 4
+*/
+
+.a27-29 .assign1 .assign1-1 {
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: calc(100% - 30px);
+    background-color: lightgray;
+}
+
+.a27-29 .assign1 .assign1-2 {
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: calc((100% - 60px) / 3);
+    background-color: lightgray;
+}
+
+.a27-29 .assign1 .assign1-3 {
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: calc((100% - 45px) / 2);
+    background-color: lightgray;
+}
+
+.a27-29 .assign1 .assign1-4 {
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: calc((100% - 75px) / 4);
+    background-color: lightgray;
+}
+
+.a27-29 .assign1 .clear {
+    clear: both;
+}
+
+.a27-29 .assign2 .normal {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: lightgray;
+    color: black;
+
+}
+
+.a27-29 .assign2 .one {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.3);
+    color: black;
+}
+
+.a27-29 .assign2 .two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.3);
+    opacity: 0.3;
+    color: black;
+}
+
+.a30-33 {
+    top: 11500px;
+}
+
+.a30-33 .assign1 {
+    position: absolute;
+}
+
+.a30-33 .assign1 .black {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    background-color: black;
+    z-index: 1;
+}
+
+.a30-33 .assign1 .blue {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #03a9f4;
+    z-index: 2;
+}
+
+.a30-33 .assign1 .green {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: #009688;
+    z-index: 3;
+}
+
+.a30-33 .assign1 .red {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    background-color: #f44336;
+    z-index: 4;
+}
+
+.a30-33 .assign2-h3 {
+    position: absolute;
+    top: 300px;
+}
+
+.a30-33 .assign2 {
+    position: relative;
+    top: 250px;
+    width: 400px;
+    background-color: #eee;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #f44336 #2196f3;
+    padding: 20px;
+    text-align: center;
+}
+
+.a30-33 .assign2 .top-left,
+.a30-33 .assign2 .top-right,
+.a30-33 .assign2 .bottom-left,
+.a30-33 .assign2 .bottom-right {
+    width: 30px;
+    height: 30px;
+    margin: -15px;
+    color: white;
+    padding: 4px;
+    position: absolute;
+}
+
+.a30-33 .assign2 .top-left {
+    top: 0;
+    left: 0;
+    border-right: 3px solid #f44336;
+    background-color: #2196f3;
+}
+
+.a30-33 .assign2 .top-right {
+    top: 0;
+    right: 0;
+    border-left: 3px solid #f44336;
+    background-color: #2196f3;
+}
+
+.a30-33 .assign2 .bottom-left {
+    bottom: 0;
+    left: 0;
+    border-right: 3px solid #f44336;
+    background-color: #2196f3;
+}
+
+.a30-33 .assign2 .bottom-right {
+    bottom: 0;
+    right: 0;
+    border-left: 3px solid #f44336;
+    background-color: #2196f3;
+}
+
+.a30-33 .assign3-h3 {
+    position: relative;
+    top: 260px;
+}
+
+.a30-33 .assign3 {
+    position: relative;
+    top: 280px;
+    width: 400px;
+    margin: auto;
+}
+
+.a30-33 .assign3 .html,
+.a30-33 .assign3 .css,
+.a30-33 .assign3 .js {
+    background-color: lightgray;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+.a30-33 .assign3 li {
+    background-color: #eee;
+    margin: 10px;
+    padding: 10px;
+    list-style-position: outside;
+    outline: lightgray;
+}
+
+.a30-33 .assign3 ol {
+    padding-inline-start: 20px;
+}
+
+.a30-33 .assign3 .css li {
+    list-style: upper-roman;
+}
+
+.a30-33 .assign3 .js ul {
+    padding-inline-start: 0px;
+}
+
+.a30-33 .assign3 .js li {
+    list-style-position: inside;
+}
+
+.a30-33 .assign4 {
+    position: relative;
+    top: 300px;
+    text-transform: capitalize;
+}
+
+.a30-33 .assign4 caption {
+    font-weight: 700;
+    padding: 20px;
+}
+
+.a30-33 .assign4 table {
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+
+.a30-33 .assign4 th {
+    background-color: #404040;
+    color: white;
+    padding: 15px;
+}
+
+.a30-33 .assign4 td {
+    background-color: #eee;
+    padding: 20px;
+
+}
+
+.a30-33 .assign4 td .view-button {
+    background-color: #03a9f4;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+.a30-33 .assign4 .delete-button {
+    background-color: #e91e63;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+.a30-33 .assign4 img {
+    width: 60px;
+    height: 60px;
+    border: 3px solid lightgray;
+    outline: solid #b5b0b0;
+}
+
+.a34-37 {
+    top: 13600px;
+}
+
+.a34-37 .assign1 {
+    position: absolute;
+    left: 50%;
+}
+
+.a34-37 .assign1 div {
+    width: 300px;
+    padding: 21px 0px;
+    vertical-align: middle;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #eee;
+}
+
+.a34-37 .assign1 div:empty {
+    padding: 30px 0px;
+    background-color: red;
+}
+
+.a34-37 .assign2 {
+    position: relative;
+    top: 300px;
+}
+
+.a34-37 .assign2 div {
+    background-color: lightgray;
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    left: 50%;
+}
+
+.a34-37 .assign2 div::first-letter {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-left: -35px;
+}
+
+.a34-37 .assign3-h3 {
+    position: relative;
+    top: 400px;
+}
+
+.a34-37 .assign3 p {
+    position: relative;
+    top: 400px;
+    left: 50%;
+    padding: 15px;
+    background-color: #eee;
+    margin: 20px auto;
+    border-left: 5px solid #e91e63;
+}
+
+.a34-37 .assign4-h3 {
+    position: relative;
+    top: 400px;
+}
+
+.a34-37 .assign4 p {
+    position: relative;
+    top: 400px;
+    left: 50%;
+    background-color: #eee;
+    padding: 20px;
+    counter-increment: title-counter;
+
+}
+
+.a34-37 .assign4 p::before {
+    content: counter(title-counter);
+    width: 60px;
+    position: absolute;
+    top: 0;
+    left: -60px;
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: bold;
+}
+
+.a34-37 .assign4 p::after {
+    content: "";
+    border-left: 5px solid #f44336;
+    padding: 29px;
+    position: absolute;
+    right: -38px;
+    top: 34%;
+    margin: -20px;
+}
+
+.a34-37 .assign3 p::before {
+    content: attr(data-person);
+    width: 50px;
+    background-color: lightgray;
+    position: absolute;
+    left: -100px;
+    top: -30%;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.a34-37 .assign3 p::after {
+    content: "";
+    border: 10px solid;
+    border-color: transparent #e91e63 transparent transparent;
+    position: absolute;
+    top: 50%;
+    left: -24px;
+    margin-top: -10px;
+}
+
+.a38-41 {
+    top: 15100px;
+}
+
+.a38-41 .assign1-1 {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    float: left;
+    counter-increment: number;
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: #eee;
+    box-shadow: -5px -5px 0px 0px #e91e63,
+        5px 5px 0px 0px #2196f3;
+    position: relative;
+}
+
+.a38-41 .assign-clear {
+    clear: both;
+}
+
+.a38-41 .assign1-1::before {
+    content: counter(number);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    margin-top: -65px;
+    margin-left: 35%;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+
+.a38-41 .assign1-1::after {
+    content: "element";
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.a38-41 .assign2 {
+    margin: auto;
+    border-radius: 10% 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    box-shadow: inset 0px 0px 10px 0px black;
+}
+
+.a38-41 .assign3 {
+    width: 550px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.a38-41 .assign3-1,
+.a38-41 .assign3-2 {
+    box-sizing: border-box;
+    width: 225px;
+    height: 250px;
+    position: absolute;
+    margin: 30px;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.a38-41 .assign3-2 {
+    left: 50%;
+}
+
+.a38-41 .assign3 p {
+    position: absolute;
+    top: 37%;
+    left: 34%;
+    font-size: 40px;
+}
+
+.a38-41 .assign3 input {
+    display: block;
+    width: 180px;
+    background-color: #03a9f4;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: larger;
+}
+
+.a38-41 .assign3-1::before,
+.a38-41 .assign3-2::before {
+    content: "";
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    background-color: #ddd;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.a38-41 .assign3-1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -26px;
+    padding: 125px 0px;
+    border: 1px solid #03a9f4;
+}
+
+.a38-41 .assign3-2::after {
+    content: "or";
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    position: absolute;
+    top: 100px;
+    left: -40px;
+    background-color: #03a9f4;
+    color: white;
+    border-radius: 50%;
+}
+
+.a42-45 {
+    top: 16000px;
+}
+
+.a42-45 .assign1 {
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 3px;
+    background-color: #eee;
+    text-align: center;
+    -moz-transition: margin-top 0.5s linear;
+    -webkit-transition: margin-top 0.5s linear;
+    transition: margin-top 0.5s linear;
+}
+
+.a42-45 .assign1 .assign1-1 {
+    width: 300px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 3px;
+    background-color: #ddd;
+    transition: margin-top 0.5s 0.5s linear;
+    -webkit-transition: margin-top 0.5s 0.5s linear;
+    -moz-transition: margin-top 0.5s 0.5s linear;
+}
+
+.a42-45 .assign1:hover {
+    margin-top: 0;
+}
+
+.a42-45 .assign1:hover .assign1-1 {
+    margin-top: 30px;
+}
+
+.a42-45 .assign2 div {
+    background-color: #eee !important;
+    border: none !important;
+    width: 400px !important;
+    margin: 0 auto !important;
+    font-size: 20px !important;
+    color: #eee !important;
+}
+
+.a42-45 .assign2 div::before {
+    content: "Elzero";
+    color: black;
+    position: relative;
+    padding: 18px;
+    left: 50%;
+    margin-left: -50px;
+    font-weight: bold;
+}
+
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+}
+
+.a42-45 .assign3-1 {
+    width: 400px;
+    padding: var(--mainPadding, 10px);
+    margin: 15px auto;
+    border: 3px solid var(--mainColor, black);
+    color: var(--mainColor, red);
+}
+
+.a42-45 .assign3-2 {
+    width: 400px;
+    padding: 10px;
+    margin: 15px;
+    border: 3px solid black;
+    color: red;
+}
+
+.a46-53 {
+    top: 17150px;
+}
+
+.a46-53 .assign1 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-shadow: -5px 0px 0 #03a9f4,
+        5px 0px 0 #ff5722;
+    background-color: #eee;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff5722;
+    transition: ease-out;
+    transition-property: width, height, margin, box-shadow, font-size;
+    transition-duration: 0.5s, 0.5s, 1s, 1s, 1s;
+    transition-delay: 0s, 0s, 0.5s, 0.5s, 0s;
+}
+
+.a46-53 .assign1:hover {
+    width: 150px;
+    height: 150px;
+    margin: 50px auto;
+    box-shadow: -10px 0px 0 #03a9f4,
+        10px 0px 0 #ff5722;
+    font-size: 40px;
+}
+
+.a46-53 .assign2 {
+    display: flex;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #eee;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.a46-53 .assign2 div {
+    background-color: #f44336;
+    color: white;
+    width: 180px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.a46-53 .assign3 {
+    display: flex;
+    width: 600px;
+    height: 300px;
+    padding: 2%;
+    margin: 20px auto;
+    background-color: #eee;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.a46-53 .assign3 div {
+    display: flex;
+    width: calc(96%/3);
+    padding: 1%;
+    background-color: #607d8b;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.a46-53 .assign3 .one {
+    order: 6;
+    height: 15%;
+    align-self: flex-end;
+}
+
+.a46-53 .assign3 .two {
+    order: 5;
+    height: 50%;
+    align-self: auto;
+}
+
+.a46-53 .assign3 .three {
+    order: 2;
+    height: 15%;
+    align-self: auto;
+}
+
+.a46-53 .assign3 .four {
+    order: 3;
+    height: 50%;
+    align-self: auto;
+}
+
+.a46-53 .assign3 .five {
+    order: 4;
+    height: 50%;
+    align-self: auto;
+}
+
+.a46-53 .assign3 .six {
+    order: 1;
+    height: 50%;
+    align-self: auto;
+}
+
+.a46-53 .assign4 {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    padding: 2%;
+    margin: 20px auto;
+    background-color: #eee;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.a46-53 .assign4 div {
+    padding: 10px;
+    display: flex;
+    background-color: #009688;
+    align-items: center;
+    justify-content: center;
+    height: calc(99%/3);
+}
+
+.a46-53 .assign4 .one {
+    align-self: auto;
+    margin-left: 95%;
+}
+
+.a46-53 .assign4 .two {
+    align-self: auto;
+    margin: 0px 50% 0px 0px;
+    width: 50%;
+}
+
+.a46-53 .assign4 .three {
+    align-self: auto;
+    margin-left: 95%;
+}
+
+.a46-53 .assign5 {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    justify-content: space-between;
+    background-color: #eee;
+}
+
+.a46-53 .assign5 div {
+    width: calc(100%/6);
+    height: calc(100%/2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.a46-53 .assign5 .one {
+    background-color: #ff9800;
+    margin: 0px 25%;
+}
+
+.a46-53 .assign5 .two {
+    background-color: #8bc34a;
+    order: 4;
+    margin-right: 30%;
+}
+
+.a46-53 .assign5 .three {
+    background-color: #795548;
+    margin-right: 1%;
+}
+
+.a46-53 .assign5 .four {
+    background-color: #673ab7;
+    order: 3;
+}
+
+.a46-53 .assign6 {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    background-color: #eee;
+    flex-wrap: wrap;
+    padding: 2%;
+    font-size: small;
+}
+
+.a46-53 .assign6 .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 10%;
+}
+
+.a46-53 .assign6 .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70px;
+    background-color: #ddd;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.a46-53 .assign6 .links {
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    padding: 10px;
+    margin: 0;
+    background-color: #ddd;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+
+.a46-53 .assign6 li {
+    margin: 0 5px;
+}
+
+.a46-53 .assign6 .main-area {
+    display: flex;
+    justify-content: space-between;
+    height: 70%;
+}
+
+.a46-53 .assign6 .content {
+    background-color: #ddd;
+    width: 69%;
+    padding: 10px;
+}
+
+.a46-53 .assign6 .sidebar {
+    background-color: #ddd;
+    width: 29%;
+    padding: 10px;
+}
+
+.a46-53 .assign6 .footer {
+    display: flex;
+    height: 14%;
+    margin: 10px 0;
+    background-color: #DDD;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a54-56 {
+    top: 19400px;
+}
+
+.a54-56 .assign1 {
+    position: relative;
+    width: 600px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #eee;
+    font-size: 50px;
+    font-family: auto;
+    letter-spacing: 3px;
+}
+
+.a54-56 .assign1::before {
+    content: "";
+    position: absolute;
+    top: -10%;
+    left: -2%;
+    width: 104%;
+    height: 120%;
+    z-index: -1;
+    background-image: linear-gradient(to right, #F44336, #f44336 20%, #2196f3 20%, #2196f3 40%, #4CAF50 40%, #4caf50 60%, #e91e63 60%, #e91e63 80%, #673ab7 80%);
+}
+
+.a54-56 .assign1::first-letter {
+    color: #f44336;
+}
+
+.a54-56 .assign2 .assign2-1 {
+    width: 100%;
+    margin: 15px 0;
+    position: relative;
+}
+
+.a54-56 .assign2 .assign2-1 input {
+    width: 100%;
+    padding: 15px;
+    background-color: #eee;
+    caret-color: #f44336;
+    outline: none;
+    border: none;
+}
+
+.a54-56 .assign2 .assign2-1::after {
+    content: "";
+    width: 100%;
+    height: 7%;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    background-image: linear-gradient(to right, #f44336 50%, #009688 50%);
+}
+
+.a57-64 {
+    top: 19900px;
+}
+
+.a57-64 .assign1 {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template: 15% 85% / repeat(3, 1fr);
+    grid-gap: 3%;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+
+.a57-64 .assign1 div {
+    display: grid;
+    background-color: #607d8b;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.a57-64 .assign1 .assign1-1::before {
+    content: "element 1";
+}
+
+.a57-64 .assign1 .assign1-2::before {
+    content: "element 2";
+}
+
+.a57-64 .assign1 .assign1-3::before {
+    content: "element 3";
+}
+
+.a57-64 .assign1 .assign1-4::before {
+    content: "element 4";
+}
+
+.a57-64 .assign1 .assign1-5::before {
+    content: "element 5";
+}
+
+.a57-64 .assign1 .assign1-6::before {
+    content: "element 6";
+}
+
+.a57-64 .assign2 {
+    position: relative;
+}
+
+.a57-64 .assign2 img {
+    width: 800px;
+    height: 400px;
+    display: block;
+    margin-top: 15px;
+}
+
+.a57-64 .assign2 a {
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #404040;
+    opacity: 0.1;
+    color: white;
+    text-decoration: none;
+}
+
+.a57-64 .assign2 a:hover {
+    color: wheat;
+    opacity: 0.6;
+}
+
+.a57-64 .assign3 {
+    width: 800px;
+    min-height: 400px;
+    display: grid;
+    padding: 20px;
+    background-color: #ddd;
+    grid-template-columns: auto repeat(2, 1fr) auto;
+    grid-template-rows: 1fr auto;
+    gap: 20px;
+}
+
+.a57-64 .assign3 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #403f3f;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.a57-64 .assign4 {
+    padding: 20px;
+    display: grid;
+    width: 800px;
+    height: 400px;
+    background-color: #ddd;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 20px;
+    grid-template-areas: "eight eight eight"
+        "two two three"
+        "four five five"
+        "six five five"
+        "seven five five"
+        "one one one";
+}
+
+.a57-64 .assign4 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2196f3;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.a57-64 .assign4 .one {
+    grid-area: one;
+}
+
+.a57-64 .assign4 .two {
+    grid-area: two;
+}
+
+.a57-64 .assign4 .three {
+    grid-area: three;
+}
+
+.a57-64 .assign4 .four {
+    grid-area: four;
+}
+
+.a57-64 .assign4 .five {
+    grid-area: five;
+}
+
+.a57-64 .assign4 .six {
+    grid-area: six;
+}
+
+.a57-64 .assign4 .seven {
+    grid-area: seven;
+}
+
+.a57-64 .assign4 .eight {
+    grid-area: eight;
+}
+
+.a57-64 .assign5 {
+    padding: 20px;
+    display: grid;
+    width: 800px;
+    height: 400px;
+    background-color: #ddd;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    align-content: space-between;
+}
+
+.a57-64 .assign5 div {
+    position: relative;
+    background-color: #e91e63;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.a57-64 .assign6 {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: "e1 e1 e2 e3" "e4 e5 e5 e3" "e4 e5 e5 e3" "e4 e6 e6 e3" "e4 e6 e6 e3" "e7 e8 e9 e10";
+    background-color: #ddd;
+    gap: 15px;
+    padding: 3%;
+}
+
+.a57-64 .assign6 div {
+    position: relative;
+    padding: 3%;
+    background-color: white;
+    border-bottom: 3px solid red;
+}
+
+.a57-64 .assign6 div::before {
+    content: '"';
+    rotate: 15deg;
+    color: lightgray;
+    position: absolute;
+    bottom: -20px;
+    right: 15px;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.a57-64 .assign6 .bold {
+    font-weight: bold;
+}
+
+.a57-64 .assign6 div h4 {
+    padding: 5px 0;
+    margin: 0;
+}
+
+.a57-64 .assign6 div h6 {
+    margin: 0;
+    padding: 5px 0;
+    color: lightgray;
+}
+
+.a57-64 .assign6 .assign6-1 {
+    grid-area: e1;
+}
+
+.a57-64 .assign6 .assign6-2 {
+    grid-area: e2;
+}
+
+.a57-64 .assign6 .assign6-3 {
+    grid-area: e3;
+    background-color: black;
+    color: white;
+}
+
+.a57-64 .assign6 .assign6-4 {
+    grid-area: e4;
+}
+
+.a57-64 .assign6 .assign6-5 {
+    grid-area: e5;
+    background-color: black;
+    color: white;
+}
+
+.a57-64 .assign6 .assign6-6 {
+    grid-area: e6;
+}
+
+.a57-64 .assign6 .assign6-7 {
+    grid-area: e7;
+}
+
+.a57-64 .assign6 .assign6-8 {
+    grid-area: e8;
+    background-color: black;
+    color: white;
+}
+
+.a57-64 .assign6 .assign6-9 {
+    grid-area: e9;
+}
+
+.a57-64 .assign6 .assign6-10 {
+    grid-area: e10;
+}
+
+.a65-67 {
+    top: 23850px;
+    width: 800px;
+}
+
+.a65-67 .assign1 {
+    position: relative;
+    left: 50%;
+    width: 300px;
+    height: 200px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #03a9f4;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 32px;
+    border: 2px solid #ddd;
+}
+
+.a65-67 .assign1::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: #e91e63;
+    transform: rotate(7deg);
+    z-index: -1;
+}
+
+.a65-67 .assign1::after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: #03a9f4;
+    transform: rotate(-7deg);
+    z-index: -1;
+}
+
+.a65-67 .assign2 {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    position: relative;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    background-color: #eee;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    font-family: serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.a65-67 .assign2::before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -1px;
+    border: 10px solid;
+    z-index: -1;
+    box-sizing: border-box;
+    border-radius: inherit;
+    transform: scale(1.1);
+    border-color: #e91e63 #e91e63 #e91e63 transparent;
+}
+
+.a65-67 .assign2::after {
+    content: "";
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -1px;
+    border: 10px solid;
+    z-index: -1;
+    box-sizing: border-box;
+    border-radius: inherit;
+    transform: scale(1.24);
+    border-color: #03a9f4 transparent #03a9f4 #03a9f4;
+}
+
+.a65-67 .assign3 {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    position: relative;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    background-color: #eee;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    font-family: serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.a65-67 .assign3::before {
+    content: "";
+    width: 215px;
+    height: 215px;
+    position: absolute;
+    top: -10px;
+    border: 10px solid;
+    box-sizing: border-box;
+    border-radius: inherit;
+    border-color: #e91e63 #e91e63 #e91e63 transparent;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.a65-67 .assign3::after {
+    content: "";
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    top: -23px;
+    border: 10px solid;
+    box-sizing: border-box;
+    border-radius: inherit;
+    border-color: #03a9f4 transparent #03a9f4 #03a9f4;
+    -webkit-transition: 0.5s 0.5s;
+    -moz-transition: 0.5s 0.5s;
+    transition: 0.5s 0.5s;
+}
+
+.a65-67 .assign3:hover::before,
+.a65-67 .assign3:hover::after {
+    transform: rotate(1turn);
+}
+
+.a68-73 {
+    top: 25000px;
+    width: 800px;
+}
+
+.a68-73 .assign1 {
+    width: 150px;
+    height: 60px;
+    padding: 15px;
+    text-align: center;
+    background-color: tomato;
+    margin: 50px auto;
+    color: white;
+    font-size: 30px;
+    font-family: serif;
+    font-weight: bold;
+    position: relative;
+}
+
+.a68-73 .assign1::before {
+    content: "";
+    width: 100%;
+    height: 60px;
+    background-color: inherit;
+    transform: skew(10deg, 10deg);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.a68-73 .assign1::after {
+    content: "";
+    width: 100%;
+    height: 60px;
+    background-color: inherit;
+    transform: skew(-10deg, -10deg);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+.a68-73 .assign2 {
+    width: 150px;
+    height: 60px;
+    margin: 30px auto;
+    padding: 10px;
+    position: relative;
+    background-color: var(--mainColor);
+    font-family: serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.a68-73 .assign2::before {
+    content: "";
+    width: 20px;
+    height: inherit;
+    margin: inherit;
+    position: absolute;
+    top: -30px;
+    left: -14px;
+    background-color: inherit;
+    border-right: 5px solid white;
+    transform: skew(20deg);
+}
+
+.a68-73 .assign3 {
+    background-color: #eee;
+    text-align: center;
+    padding: 15px;
+    margin: 30px auto;
+    border: 2px solid var(--mainColor);
+}
+
+.a68-73 .assign4 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    margin: 30px auto;
+    border-bottom: 7px solid black;
+    background-color: #607d8b;
+}
+
+.a68-73 .assign4::before {
+    content: "elzero";
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+
+.a68-73 .assign4::after {
+    content: "";
+    position: absolute;
+    top: -70px;
+    left: 30px;
+    width: 135px;
+    height: 135px;
+    background-color: black;
+    transform: rotate(45deg);
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+}
+
+.a68-73 #assign5 {
+    margin: 100px auto;
+}
+
+.a68-73 .container {
+    width: 800px;
+}
+
+.a68-73 .assign5 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    transition: 1s;
+    transform-style: preserve-3d;
+    margin-bottom: 30px;
+}
+
+.a68-73 .assign5:hover {
+    transform: rotateY(180deg);
+}
+
+.a68-73 .assign5::before,
+.a68-73 .assign5::after {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+}
+
+.a68-73 .assign5::before {
+    content: "back";
+    background-color: #03a9f4;
+    transform: rotateY(-180deg);
+}
+
+.a68-73 .assign5::after {
+    content: "front";
+    background-color: #e91e63;
+    backface-visibility: hidden;
+}
+
+.a68-73 .assign5-1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.a68-73 .assign5-1:hover {
+    transform: rotatex(180deg);
+}
+
+.a68-73 .assign5-1::before,
+.a68-73 .assign5-1::after {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+}
+
+.a68-73 .assign5-1::before {
+    content: "back";
+    background-color: #03a9f4;
+    transform: rotatex(-180deg);
+}
+
+.a68-73 .assign5-1::after {
+    content: "front";
+    background-color: #e91e63;
+    backface-visibility: hidden;
+}
+
+.a74-77 {
+    top: 26700px;
+    width: 800px;
+}
+
+.a74-77 .assign1 {
+    margin: 50px auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #e91e63;
+    border-right-color: transparent;
+    animation: spin normal 1s infinite linear;
+}
+
+.a74-77 .assign1:hover {
+    animation-play-state: paused;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.a74-77 .assign1::before {
+    content: "";
+    margin: -8px;
+    width: 55px;
+    height: 55px;
+    border: 3px solid #2196f3;
+    border-radius: 50%;
+    display: block;
+    border-left-color: transparent;
+}
+
+.a74-77 .assign1::after {
+    content: "";
+    margin: -65px -13px;
+    width: 65px;
+    height: 65px;
+    border: 3px solid #fba600;
+    border-radius: 50%;
+    display: block;
+    border-bottom-color: transparent;
+}
+
+.a74-77 .assign2 {
+    width: 50px;
+    height: 50px;
+    margin: 50px auto;
+    border-radius: 50%;
+    border: 3px solid #03a9f4;
+    border-bottom-color: transparent;
+    animation: spin 1s linear infinite;
+    animation-play-state: paused;
+}
+
+.a74-77 .assign2::before {
+    content: "";
+    margin: -8px;
+    width: 55px;
+    height: 55px;
+    border: 3px solid #fba600;
+    border-radius: 50%;
+    display: block;
+    border-bottom-color: transparent;
+    animation: spin 1.5s linear infinite;
+    animation-play-state: paused;
+}
+
+.a74-77 .assign2::after {
+    content: "";
+    margin: -65px -13px;
+    width: 65px;
+    height: 65px;
+    border: 3px solid black;
+    border-radius: 50%;
+    display: block;
+    border-bottom-color: transparent;
+    animation: spin 2s linear infinite;
+    animation-play-state: paused;
+}
+
+.a74-77 .assign2:hover,
+.a74-77 .assign2:hover::before,
+.a74-77 .assign2:hover::after {
+    animation-play-state: running;
+}
+
+.a74-77 .assign3 span {
+    margin: 50px auto;
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 50%;
+    border: 3px solid black;
+    border-bottom-color: transparent;
+    display: block;
+    animation: spin 1s infinite reverse linear;
+}
+
+.a74-77 .assign4 {
+    position: relative;
+}
+
+.a74-77 .assign4 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: 15px;
+    content: "click here";
+}
+
+
+.a74-77 .assign4 a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #404040;
+    opacity: 0.1;
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+    z-index: 1;
+}
+
+.a74-77 .assign4 a:hover {
+    color: wheat;
+    opacity: 0.6;
+    font-size: 32px;
+}
+
+
+.a74-77 .assign4 {
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-auto-rows: auto;
+    justify-content: center;
+    gap: 0 20px;
+}
+
+.letter {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: repeat(5, 50px);
+
+}
+
+.e1 {
+    grid-area: 1/2/2/4;
+    background-color: black;
+}
+
+.e2 {
+    grid-area: 3/2/3/4;
+    background-color: black;
+}
+
+.e3 {
+    grid-area: 5/2/5/4;
+    background-color: black;
+}
+
+.e4 {
+    grid-area: 1/1/6/2;
+    background-color: black;
+}
+
+.e::after {
+    content: "";
+    width: 35px;
+    height: 35px;
+    margin: 15px;
+    grid-area: 1/3;
+    background-color: #fea604;
+    justify-self: end;
+    align-self: center;
+    transition: translate 1s;
+    animation: moving-e 8s linear infinite;
+}
+
+@keyframes moving-e {
+    6% {
+        transform: translatex(-260%)
+    }
+
+    12% {
+        transform: translate(-260%, 280%);
+    }
+
+    18% {
+        transform: translateY(280%);
+    }
+
+    24% {
+        transform: translate(-260%, 280%);
+    }
+
+    30% {
+        transform: translate(-260%, 570%);
+    }
+
+    36% {
+        transform: translateY(570%);
+    }
+
+    42% {
+        transform: translate(-260%, 570%);
+    }
+
+    48% {
+        transform: translateX(-260%);
+    }
+
+    54% {
+        transform: translateX(0);
+    }
+
+}
+
+.l1 {
+    grid-area: 1/1/6/1;
+    background-color: black;
+}
+
+.l2 {
+    grid-area: 5/2/5/4;
+    background-color: black;
+}
+
+.l::after {
+    content: "";
+    width: 35px;
+    height: 35px;
+    margin: 8px;
+    grid-area: 5/3;
+    background-color: #fea604;
+    justify-self: start;
+    align-self: center;
+    transition: translate 1s;
+    opacity: 0;
+    animation: moving-l 8s 5s ease-in-out infinite;
+
+}
+
+@keyframes moving-l {
+    0% {
+        opacity: 1;
+    }
+
+    10% {
+        opacity: 1;
+        transform: translateX(-285%);
+    }
+
+    30% {
+        opacity: 1;
+        transform: translate(-285%, -570%);
+    }
+
+    50% {
+        opacity: 0;
+        transform: translate(-285%, -570%);
+    }
+}
+
+.a78-82 {
+    top: 27800px;
+}
+
+.a78-82 .assign1,
+.a78-82 .assign2,
+.a78-82 .assign3,
+.a78-82 .assign4,
+.a78-82 .assign5,
+.a78-82 .assign6,
+.a78-82 .assign7,
+.a78-82 .assign8 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.a78-82 * {
+    margin: 0;
+}
+
+.a78-82 .assign1 div.main.red {
+    color: red;
+}
+
+.a78-82 .assign2 .parent :nth-child(2) {
+    color: red;
+}
+
+.a78-82 .assign3 .parent .baby:only-child {
+    color: red;
+}
+
+.a78-82 .assign4 [title]:nth-last-child(n+4) {
+    color: red;
+}
+
+.a78-82 .assign5 div:nth-child(2) div {
+    color: red;
+}
+
+.a78-82 .assign6 div:not(.no-need) :nth-last-of-type(2) {
+    color: red;
+}
+
+.a78-82 .assign7 div:first-child div:nth-last-of-type(2) {
+    color: red;
+}
+
+.a78-82 .assign7 h3,
+.a78-82 .assign8 h3 {
+    color: black;
+}
+
+.a78-82 .assign8 :not(:first-child, :last-child, h3) {
+    color: red;
+}
+
+.a83-85 {
+    top: 31800px;
+}
+
+@media print {
+    .assign-one {
+        font-size: 40px;
+    }
+}
+
+.a83-85 .assign2,
+.a83-85 .assign3 {
+    position: relative;
+    width: 800px;
+    height: 400px;
+}
+
+.a83-85 .assign2 a,
+.a83-85 .assign3 a {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #404040;
+    opacity: 0.1;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s
+}
+
+.a83-85 .assign2 a:hover,
+.a83-85 .assign3 a:hover {
+    color: wheat;
+    opacity: 0.6;
+}
+
+
+.a83-85 .assign2 img,
+.a83-85 .assign3 img {
+    width: inherit;
+    height: inherit;
+    display: block;
+    margin-top: 15px;
+}
+
+.a86-88 {
+    top: 33000px;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.center-position {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-100 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.circle-200 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.a86-88 .assign1 img {
+    width: 200px;
+    height: 200px;
+}
+
+.a86-88 .assign1-1 {
+    width: 400px;
+    height: 300px;
+    color: red;
+}
+
+.a86-88 .assign1-2.parent {
+    width: 200px;
+    height: 200px;
+}
+
+.a86-88 .assign1-2.child {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    color: red;
+    align-items: center;
+    justify-content: center;
+}
+
+.a86-88 .assign1-3 {
+    width: 200px;
+    height: 200px;
+}
+
+.a86-88 .assign1-3 div {
+    background-color: #eee;
+    border: 1px solid red;
+    color: red;
+}
+
+.a86-88 .assign1-4 {
+    width: 400px;
+    height: 400px;
+}
+
+.a86-88 .assign1-4 div {
+    background-color: #eee;
+    border: 1px solid red;
+    color: red;
+}
+
+.a86-88 .assign2 div {
+    position: relative;
+    width: 400px;
+    padding: 20px;
+    margin: 30px;
+    background-color: #ddd;
+}
+
+.arrow::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -10px;
+    border: 20px solid;
+    border-color: #ddd transparent transparent transparent;
+
+}
+
+.top::after {
+    top: calc(0% - 30px);
+    left: calc(50% - 10px);
+    transform: rotate(180deg);
+}
+
+.right::after {
+    top: calc(50% - 10px);
+    left: calc(100% + 10px);
+    transform: rotate(-90deg);
+}
+
+.bottom::after {
+    top: calc(100% + 10px);
+    left: calc(50% - 10px);
+}
+
+.left::after {
+    top: calc(50% - 10px);
+    left: calc(0% - 30px);
+    transform: rotate(90deg);
+}
+
+footer {
+    position: absolute;
+    top: 34700px;
+    width: 99%;
+    height: 8%;
+    background-color: #eee;
+    padding: 5px 25px;
+    margin: auto;
+    border: 3px solid red;
+    outline: solid lightgray;
+    text-align: left;
+    z-index: 3;
+}
+
+footer p {
+    position: inherit;
+    top: -5px;
+    transition: none;
+}
+
+footer .copy-right {
+    font-size: smaller;
+    position: relative;
+}
+
+footer hr {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 0;
+}
